@@ -1,30 +1,32 @@
 # ESP32 Zephyr RTOS GPIO Demo for ESP32 DevKitC & ESP32-CAM
 
-**Author:** Nguyễn Minh Quân
-**Platform:** ESP32 DevKitC v4 / ESP32-CAM
-**Framework:** Zephyr RTOS v4.4.0
-**Language:** C
-**Toolchain:** Zephyr SDK + west + CMake
+| Property       | Value                        |
+|----------------|------------------------------|
+| **Author**     | Nguyễn Minh Quân             |
+| **Platform**   | ESP32 DevKitC v4 / ESP32-CAM |
+| **Framework**  | Zephyr RTOS v4.4.0           |
+| **Language**   | C                            |
+| **Toolchains** | west + CMake + Zephyr SDK    |
 
 ---
 
 # Project Overview
 
-This project demonstrates a simple **GPIO LED Blink application** developed with **Zephyr RTOS** for two ESP32 development boards:
+This project demonstrates a portable **GPIO LED Blink** application developed with **Zephyr RTOS** for two ESP32 development boards:
 
-* ESP32 DevKitC v4
-* ESP32-CAM
+- ESP32 DevKitC v4
+- ESP32-CAM
 
-The same application source is reused across both boards by utilizing **DeviceTree overlays**, allowing board-specific hardware configurations without modifying the firmware source.
+The application uses **DeviceTree overlays** to separate hardware configuration from application logic, allowing the same firmware source to run on multiple boards without modification.
 
 This project demonstrates practical experience with:
 
-* Zephyr RTOS
-* Embedded C programming
-* DeviceTree customization
-* GPIO Driver API
-* ESP32 Board Support Package (BSP)
-* Cross-board firmware portability
+- Zephyr RTOS
+- Embedded C programming
+- DeviceTree customization
+- GPIO Driver API
+- ESP32 Board Support Package (BSP)
+- Cross-board firmware portability
 
 ---
 
@@ -32,9 +34,7 @@ This project demonstrates practical experience with:
 
 ## ESP32-CAM LED Blink
 
-```markdown
-https://github.com/user-attachments/assets/403be507-46ce-4f00-a691-2bfa5d5892ec
-```
+[Watch the demo video](https://github.com/user-attachments/assets/403be507-46ce-4f00-a691-2bfa5d5892ec)
 
 ---
 
@@ -66,11 +66,9 @@ Zephyr RTOS 4.4.0
 
 ## Main Source
 
-`src/main.c`
+- `src/main.c`
 
-```c
-// main.c
-```
+The application configures the built-in LED using Zephyr's GPIO Driver API and toggles it every 5 seconds through a DeviceTree alias (`led0`).
 
 ### Features
 
@@ -85,13 +83,7 @@ Zephyr RTOS 4.4.0
 
 File:
 
-```
 boards/esp32_devkitc_esp32_procpu.overlay
-```
-
-```dts
-// overlay file
-```
 
 ### Description
 
@@ -105,13 +97,7 @@ boards/esp32_devkitc_esp32_procpu.overlay
 
 File:
 
-```
 boards/esp32_cam_esp32_procpu.overlay
-```
-
-```dts
-// overlay file
-```
 
 ### Description
 
