@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "F:/Zephyr/Workspace/zephyrproject/deps/zephyr/boards/aithinker/esp32_cam/Kconfig.esp32_cam"

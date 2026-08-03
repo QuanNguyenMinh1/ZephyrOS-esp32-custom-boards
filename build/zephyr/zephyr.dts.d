@@ -1,0 +1,32 @@
+empty_file.o: \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/misc/empty_file.c \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/boards/aithinker/esp32_cam/esp32_cam_procpu.dts \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/xtensa/espressif/esp32/esp32_wrover_e_n4r8.dtsi \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/xtensa/espressif/esp32/esp32_common.dtsi \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/common/mem.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/common/freq.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/xtensa/xtensa.dtsi \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/common/skeleton.dtsi \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_macro.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_internal.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_loops.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_listify.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/clock/esp32_clock.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/interrupt-controller/esp-xtensa-intmux.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/pinctrl/esp32-pinctrl.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/pinctrl/esp-pinctrl-common.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/pinctrl/esp32-gpio-sigmap.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/boards/aithinker/esp32_cam/esp32_cam-pinctrl.dtsi \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/vendor/espressif/partitions_0x1000_amp.dtsi \
+ F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/vendor/espressif/partitions_0x1000_amp_4M.dtsi \
+ F:/Zephyr/Workspace/Zephyr_Blinky_V2/boards/esp32_cam_esp32_procpu.overlay

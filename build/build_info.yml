@@ -1,0 +1,50 @@
+cmake:
+  application:
+    configuration-dir: 'F:/Zephyr/Workspace/Zephyr_Blinky_V2'
+    source-dir: 'F:/Zephyr/Workspace/Zephyr_Blinky_V2'
+  board:
+    name: 'esp32_cam'
+    path:
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/boards/aithinker/esp32_cam'
+    qualifiers: 'esp32/procpu'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/bindings'
+    files:
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/boards/aithinker/esp32_cam/esp32_cam_procpu.dts'
+     - 'F:/Zephyr/Workspace/Zephyr_Blinky_V2/boards/esp32_cam_esp32_procpu.overlay'
+    include-dirs:
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/include/zephyr'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/common'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/vendor'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/rx'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/x86'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/xtensa'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/sparc'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/riscv'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/posix'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/arm64'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/arm'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts/arc'
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/dts'
+    user-files:
+     - 'F:/Zephyr/Workspace/Zephyr_Blinky_V2/boards/esp32_cam_esp32_procpu.overlay'
+  kconfig:
+    files:
+     - 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr/boards/aithinker/esp32_cam/esp32_cam_procpu_defconfig'
+     - 'F:/Zephyr/Workspace/Zephyr_Blinky_V2/prj.conf'
+    user-files:
+     - 'F:/Zephyr/Workspace/Zephyr_Blinky_V2/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: 'F:/Zephyr/Workspace/zephyrproject/deps/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\Quan\.zinstaller\.venv\Scripts\west build -p always -b esp32_cam/esp32/procpu F:\Zephyr\Workspace\Zephyr_Blinky_V2 --pristine'
+  topdir: 'F:\Zephyr\Workspace\zephyrproject'
+  version: '1.5.0'

@@ -1,0 +1,13 @@
+/ {
+    aliases {
+        led0 = &flash_led;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        flash_led: flash_led {
+            gpios = <&gpio0 4 GPIO_ACTIVE_HIGH>; /* Flash LED nối gpio_4*/
+            label = "Camera Flash LED";
+        };
+    };
+};
